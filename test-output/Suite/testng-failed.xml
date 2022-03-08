@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="urlT" value="https://demoqa.com/"/>
+  <parameter name="urlM" value="https://www.mercadolibre.com.co/"/>
+  <parameter name="urlG" value="https://demo.guru99.com/selenium/newtours/index.php"/>
+  <parameter name="rutaImagenReporte" value="./Imagenes/logo.png"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.runTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="pruebaMercury" invocation-numbers="0"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- test.runTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

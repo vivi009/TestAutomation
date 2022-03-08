@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-02T15:55:56 COT" name="Suite" finished-at="2022-03-02T15:56:53 COT" duration-ms="57157">
+    <groups>
+    </groups>
+    <test started-at="2022-03-02T15:55:56 COT" name="Test" finished-at="2022-03-02T15:56:53 COT" duration-ms="57157">
+      <class name="test.runTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.runTest@2e222612]" started-at="2022-03-02T15:55:56 COT" name="beforeClass" finished-at="2022-03-02T15:56:01 COT" duration-ms="5749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.mercadolibre.com.co/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.guru99.com/selenium/newtours/index.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[./Imagenes/logo.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="PruebaMercadoLibre(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.runTest@2e222612]" started-at="2022-03-02T15:56:04 COT" name="PruebaMercadoLibre" description="MercadoLibre" data-provider="MercadoLibre" finished-at="2022-03-02T15:56:04 COT" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vivianalopez@cbit-online.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PruebaMercadoLibre -->
+        <test-method signature="pruebaMercury(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.runTest@2e222612]" started-at="2022-03-02T15:56:05 COT" name="pruebaMercury" description="RegistroMercury" data-provider="RegistroMercury" finished-at="2022-03-02T15:56:51 COT" duration-ms="46222" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Viviana]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lopez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3196667631]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[vivislopez9@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Cra 16 este # 30]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bogotá]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Cundinamarca]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[111025]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[COLOMBIA]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[vivi09]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.InterruptedException">
+            <full-stacktrace>
+              <![CDATA[java.lang.InterruptedException
+at base.ClaseBase.click(ClaseBase.java:107)
+at pagObjetGuru.PagsObjetGuru.register(PagsObjetGuru.java:52)
+at test.runTest.pruebaMercury(runTest.java:149)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.InterruptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaMercury -->
+        <test-method signature="pruebaToolsQA(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.runTest@2e222612]" started-at="2022-03-02T15:56:51 COT" name="pruebaToolsQA" description="toolsQA" data-provider="toolsQA" finished-at="2022-03-02T15:56:51 COT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[viviana]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[lopez]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vivi@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[cundinamarca]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10/May/2022/09:00]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaToolsQA -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.runTest@2e222612]" started-at="2022-03-02T15:56:51 COT" name="afterClass" finished-at="2022-03-02T15:56:53 COT" duration-ms="1814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.runTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
